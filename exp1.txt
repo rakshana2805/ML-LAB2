@@ -1,0 +1,48 @@
+using System; 
+class Student 
+{ 
+public string name; 
+public int rollNo; 
+public string department; 
+public int age; 
+public float marks; 
+public void Display() 
+{ 
+Console.WriteLine("STUDENT DETAILS"); 
+Console.WriteLine("--------------------------"); 
+Console.WriteLine("Name      
+ : " + name); 
+Console.WriteLine("Roll No    : " + rollNo); 
+Console.WriteLine("Department : " + department); 
+Console.WriteLine("Age       
+Console.WriteLine("Marks      
+} 
+static void Main(string[] args) 
+{ 
+Student s = new Student(); 
+s.name = "Rakshana"; 
+s.rollNo = 81; 
+ : " + age); 
+: " + marks); 
+s.department = "Computer Science"; 
+s.age = 18; 
+s.marks = 92.5f; 
+s.Display(); 
+Console.ReadKey(); 
+} 
+} 
+
+
+OUTPUT : 
+STUDENT DETAILS -------------------------- 
+Name           
+Roll No         
+:  Rakshana 
+:  
+81 
+Department : Computer Science 
+Age                
+Marks            
+:  
+18 
+:  92.5
